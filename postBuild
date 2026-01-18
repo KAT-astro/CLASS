@@ -1,4 +1,7 @@
 #!/bin/bash
 # すでにソースコードがリポジトリにある前提
-make -j4 class
-pip install python/
+cd class_public
+make clean
+make -j4 class PYTHON=/usr/bin/python3
+/usr/bin/python3 -m pip install python/
+cd ..
