@@ -1,0 +1,4 @@
+#!/bin/bash
+# すでにソースコードがリポジトリにある前提
+make -j4 class
+pip install python/
