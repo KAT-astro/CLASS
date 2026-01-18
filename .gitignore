@@ -14,3 +14,11 @@ RealSpaceInterface/cache/
 .DS_Store
 doc/manual/html
 doc/manual/latex
+
+# 2025/1/18 23:25
+*.so
+*.o
+build/
+bin/
+lib/
+class_public/python/classy.c
